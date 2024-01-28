@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Задание 1</title>
+        <style>
+            .box {
+                border: 2px solid black;
+                text-align: center;
+            }
+            .main3 {
+                margin: 30px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-row: 1/3;
+                grid-gap: 15px;
+                float: left;
+                width: 45%;
+            }
+            .box9 {
+                grid-row-gap: 2em;
+                grid-column: 1/2;
+                grid-row: 1/3;
+            }
+            .box10 {
+                grid-column: 2/3;
+                grid-row: 1/2;
+            }
+            .box11 {
+                grid-column: 2/3;
+                grid-row: 2/3;
+            }
+            .box12 {
+                grid-column: 3/4;
+                justify-self: start;
+                grid-row: 1/3;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main3">
+            <div class="box box9">CSS3 - это новейшая эволюция языка каскадных таблиц стилей, направленная на расширение CSS2.1. Она привносит множество новых функций и дополнений, таких как закругленные углы, тени, градиенты, переходы или анимация, а также новые макеты, такие как многостолбцовые, гибкие рамки или сетки.</div>
+            <div class="box box10">CSS3 обеспечивает поддержку некоторых новых способов описания цветов. До CSS3 мы почти всегда объявляли цвета, используя шестнадцатеричный формат (#FFF или #FFFFFF для белого). Также появилась возможность объявлять цвета с помощью нотации rgb (), предоставляя либо целые числа (0-255), либо проценты.</div>
+            <div class="box box11">CSS3 предоставляет возможность добавлять тени к элементам, используя свойство box-shadow. Это свойство позволяет вам указать цвет, высоту, ширину, размытие и смещение одной или нескольких внутренних и / или внешних теней на ваших элементах.</div>
+            <div class="box box12" style="writing-mode: vertical-lr; text-orientation: upright;">CSS3</div>
+        </div>
+    </body>
+</html>
