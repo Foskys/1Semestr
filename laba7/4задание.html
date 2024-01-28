@@ -1,0 +1,78 @@
+<!DOCTYPE html>  
+<html>  
+    <head>  
+        <meta charset="UTF-8">  
+        <title>4Задание</title> 
+        <style>
+.zad4{ 
+    position: relative; 
+    height: 400px;} 
+.zad4>img{ 
+    transform: perspective(500px) rotateY(20deg); 
+    position: absolute; 
+    width: 300px; 
+    height: 350px; 
+    margin: 20px;} 
+#one{ 
+    animation: ani1 5s ease 8s infinite alternate; 
+    left: 0;} 
+#two{ 
+    animation: ani2 5s ease 8s infinite alternate; 
+    left: 20px;} 
+#three{ 
+    animation: ani3 5s ease 8s infinite alternate; 
+    left: 40px;} 
+#four{ 
+    animation: ani4 5s ease 8s infinite alternate; 
+    left: 60px;} 
+@keyframes ani1{ 
+    0%{ 
+        left: 0;} 
+    50%{ 
+        transform: none;} 
+    100%{ 
+        transform: none; } 
+} 
+@keyframes ani2{     
+    0%{ 
+        left: 30px;} 
+    50%{ 
+        transform: none; 
+        left: 30px;} 
+    100%{ 
+        transform: none; 
+        filter: blur(10px); 
+        left: 360px;} 
+} 
+@keyframes ani3{ 
+    0%{   
+        left: 60px;} 
+    50%{        
+        transform: none; 
+        left: 60px;} 
+    100%{ 
+        filter: grayscale(1); 
+        transform: none; 
+        left: 720px;} 
+} 
+@keyframes ani4{ 
+    0%{left: 90px;} 
+    50%{ 
+        transform: none; 
+        left: 90px;} 
+    100%{ 
+        filter:  invert(1); 
+        transform: none; 
+        left: 1080px;} 
+}
+</style>
+    </head> 
+    <body> 
+        <div class="zad4">
+        <img id="one" src="happy.jpg"> 
+        <img id="two" src="ыыы.jpg"> 
+        <img id="three" src="sleepy.jpg"> 
+        <img id="four" src="grrr.jpg">
+        </div> 
+    </body> 
+</html>
