@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="telo2.xsl"?>
+
+<students>
+
+  <student>
+    <name>Яскевич</name>
+    <grade>9</grade>
+  </student>
+
+  <student>
+    <name>Каспорович</name>
+    <grade>9</grade>
+  </student>
+
+  <student>
+    <name>Ковальчук</name>
+    <grade>2</grade>
+  </student>
+
+  <student>
+    <name>Лаптева</name>
+    <grade>7</grade>
+  </student>
+
+  <student>
+    <name>Лях</name>
+    <grade>3</grade>
+  </student>
+
+  <student>
+    <name>Адамович</name>
+    <grade>10</grade>
+  </student>
+
+  <student>
+    <name>Березка</name>
+    <grade>3</grade>
+  </student>
+
+</students>
