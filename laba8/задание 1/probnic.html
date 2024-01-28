@@ -1,0 +1,66 @@
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ролловер</title>
+        <style>
+            ul li { 
+                display: inline;
+                float: left;
+                zoom: 300%;
+            }
+            ul a {
+                display: inline-block;
+                border: 1px solid black;
+                padding: 5px 40px 5px 40px;
+                background-color: yellow;
+                text-decoration: none;
+                color: blue;
+            }
+            .nav li .second a {
+            display: block;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            background: lightblue;
+            border: 1px dotted black;
+            padding: 8px;
+            text-decoration: none;
+        }       
+        .nav li .second {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left:0;
+        }
+        .nav li:hover .second{
+            display: block;
+            text-decoration: none;
+            
+        }
+            a {background: url(facultet.png) no-repeat 0 0;}
+            .nav li a {background: url(facultet.png) no-repeat 0 0;}
+            .nav .pim a:hover {background-position: 0 -90px;} 
+            .nav .xtit a:hover {background-position: 0 -60px;}
+            .nav .it a:hover {background-position: 0 -30px;} 
+        </style>
+    </head>
+    <body>
+        <nav class="nav">
+            <ul>
+                <li> <a href="https://www.belstu.by/" target="_blank">БГТУ</a></li>
+
+                <li class="it"> <a href="https://it.belstu.by/" target="_blank">ИТ</a>
+                <ul class="second">
+                    <li><a href="L5Z3.html" target="_blank">Форма</a></li>
+                    <li><a href="L5Z4.html" target="_blank">Шахматная доска</a></li>
+                    <li><a href="L6Z3.html" target="_blank">Фотогалерея</a></li>
+                </ul>
+                </li>
+                <li class="pim"> <a href="https://pim.belstu.by/" target="_blank">ПиМ</a></li>
+                <li class="xtit"> <a href="https://htit.belstu.by/" target="_blank">ХТиТ</a></li>
+            </ul>
+    </body>
+</html>
