@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "Ayu Dark Bordered",
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "~/../css",
+            "savePathReplacementPairs": null
+        }
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "window.zoomLevel": 0,
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 12,
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": ""
+} 
